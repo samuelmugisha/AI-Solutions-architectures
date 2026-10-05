@@ -2,6 +2,8 @@
 ## AI Solutions Architect — Executive Architecture Proposal
 
 ---
+## Question
+You are the lead AI Solutions Architect at a Fortune 500 company that wants to deploy an enterprise-grade, multi-tenant LLM-based knowledge assistant (supporting chat, document QA, and task automation via agents) integrated with on-prem ERP, cloud data lakes, and third-party SaaS, across AWS and an Azure DR region; the system must meet strict regulatory requirements for data locality, access control, auditability, low-latency SLAs for some regions, high availability, and cost targets. Design the end-to-end architecture and deployment plan: include options for model hosting (cloud-managed vs. self-hosted vs. hybrid), retrieval/RAG strategies for up-to-date and private data, secure data flow and access control (including key management, encryption, tenant isolation, and PII handling), agent orchestration and safety controls, monitoring and evaluation metrics (for accuracy, hallucination, privacy leaks, latency), CI/CD and governance (model/versioning, prompt/chain-of-thought logging, approval workflows), incident response and failover between AWS and Azure, and a cost-performance trade-off analysis with recommendations and migration steps from a pilot to full production across multiple regions. Identify the main risks, compliance challenges, and measurable success criteria, and justify your choices and trade-offs.
 
 ## 1. Problem
 
